@@ -1,0 +1,15 @@
+- for this problem first i will make all char in inputted string to be not case sensitive by replacing the uppercase letter to 
+lowercase letter, so all the inputted string will be lowercase letter.
+
+- next i will make the key-parameter, but the problem is there are some key-parameter which have same meaning but written in different
+words (ex: nomor and no, jalan and jl and jln,etc) so i will use disjoint set to solve this by choose the parent first, the parent
+is the longest string (ex: nomor and no, the parent is nomor and the child is no) nextone i will cek is the child is subset of the
+parent if return true it means the child and parent have same meaning so i will make it to the first parameter. next i will loop
+until n parameter.
+
+- next i will seperated all the string using some key-parameter (ex: 1,2,3,etc) to be some substrings so i can
+get specific information from each string. but the problem is not all information in this string have a specific key-parameter, so 
+i will place some information which dont have any key-parameter (ex:jaksel,idn) to an array.
+
+- next i will count the similarities, because now i already get some information from each string. now i will use the information that
+i get by erase the ' '. next i will count it by ?????
