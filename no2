@@ -2,6 +2,22 @@ highestnumber: 1
 set parent email, phone, card 0
 set array untuk dimerge kosong
 id: 1 parent: highestnumber
+if parent email 0: set email parent at highest number
+if not: check the parent
+if not in the array to merge: enter, add flag
+phone and card alike
+if flag 0, parent: highestnumber, highestnumber ++
+if flag is not 0, look at array to dimerge. Set parentnya the smallest member of the array to dimerge, replace parentnya
+if flag is more than 1, highestnumber = biggest member of array for dimerge + 1
+
+Data Structure : Disjoint set
+
+
+
+highestnumber: 1
+set parent email, phone, card 0
+set array untuk dimerge kosong
+id: 1 parent: highestnumber
 jika email parentnya 0: email parent di set highest number
 jika tidak: parentnya dicek
  jika tidak ada dalam array untuk dimerge: masukkan, flag tambah
