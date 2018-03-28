@@ -12,4 +12,18 @@ get specific information from each string. but the problem is not all informatio
 i will place some information which dont have any key-parameter (ex:jaksel,idn) to an array.
 
 - next i will count the similarities, because now i already get some information from each string. now i will use the information that
-i get by erase the ' '. next i will count it by ?????
+i get by erase the ' '. next i will count it by descending from the general one to the specific (ex: country first then the city) 
+
+int measureSimilarities(){
+if the country same similarities+= 50;
+{
+  if the city same similarities +=25;
+  {
+    if the rw same similarities +=12.5;
+    {
+      if the ........ similarities +=....;
+    }
+  }
+}
+return similarities;
+}
