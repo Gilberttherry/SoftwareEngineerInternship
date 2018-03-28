@@ -10,7 +10,7 @@ if flag 0, parent: highestnumber, highestnumber ++
 if flag is not 0, look at array to dimerge. Set parentnya the smallest member of the array to dimerge, replace parentnya
 if flag is more than 1, highestnumber = biggest member of array for dimerge + 1
 
-Data Structure : Disjoint set
+Data Structure : Disjoint set- Union Find
 
 
 
@@ -27,4 +27,7 @@ jika flag tidak 0, lihat array untuk dimerge. Set parentnya anggota terkecil dar
 jika flag lebih dari 1, highestnumber = anggota terbesar dari array utk dimerge + 1
 
 
-Struktur Data : Disjoint Set
+Struktur Data : Disjoint Set - Union Find
+
+karena pada problem kali ini jika a berhubungan dengan b dan b berhubungan dengan c maka a b dan c dianggap satu union sehingga
+penggunaan struktur data yang paling tepat adalah disjoint set - union find
