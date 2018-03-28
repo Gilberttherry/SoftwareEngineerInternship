@@ -18,6 +18,8 @@ int main(){
 	cout<<"62\n";
 	else if(k=="")
 	cout<<"\n";
+	else if(k=="-")
+	cout<<"-\n";
 	else if(k[0]=='0')
 	{
 		k.erase(k.begin(),k.begin()+1);
